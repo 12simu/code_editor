@@ -1,0 +1,12 @@
+GET https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=Chennai 502
+getWeather @ script.js:12
+(anonymous) @ script.js:35
+script.js:16 {messages: 'The API is unreachable, please contact the API provider', info: 'Your Client (working) ---> Gateway (working) ---> API (not working)'}
+
+const options = {
+    method: 'GET',
+    headers: {
+        'X-RapidAPI-Key': '52d285abeemsh57a16669dd99288p170a31jsn1a581ef7f35e',
+        'X-RapidAPI-Host': 'weather-by-api-ninjas.p.rapidapi.com'
+    }
+};
